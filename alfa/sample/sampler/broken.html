@@ -1,0 +1,111 @@
+<!doctype html>
+<!-- SAMPLER, BROKEN. Each planted defect is numbered; the answer key, with the
+     tools that do and do not find each one, is labs/fixtures/README.md.
+     The fixed twin is fixed.html, same content, same numbers. -->
+<!-- D01: no lang attribute on <html>. -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sampler (broken) — Example Institute</title>
+  <link rel="stylesheet" href="../assets/site.css">
+  <style>
+    .quiet { color: #a0a0a0; }                         /* D06: about 2.6:1 */
+    .prose a { color: #1b4f8a; text-decoration: none; } /* D07: color alone */
+    .shout { text-transform: uppercase; }              /* D08 */
+    .menu-toggle { all: unset; cursor: pointer; padding: 0.5rem; }
+    .fake-button { display: inline-block; padding: 0.5rem 1rem; background: #1b4f8a;
+                   color: #fff; cursor: pointer; }
+    .pager { display: flex; }
+    .pager a { display: block; width: 16px; height: 16px; }  /* D15 */
+    .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden;
+                       clip: rect(0 0 0 0); white-space: nowrap; }
+  </style>
+</head>
+<body>
+  <!-- D16: this line and the controls below sit outside every landmark. The
+       rule only applies once a page has at least one landmark: a page with
+       none at all passes it, which is its own lesson. -->
+  <p>Example Institute · Workshop sampler</p>
+
+  <div>
+    <!-- D04: icon-only button with no accessible name. -->
+    <button class="menu-toggle"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="#1d2433" stroke-width="2"/></svg></button>
+
+    <!-- D12: role="menubar" on a list turns each <li> into a listitem with no
+         list around it, and promises arrow-key behavior nothing implements. -->
+    <ul role="menubar">
+      <li><a href="/person/ada-lovelace/">People</a></li>
+      <li><a href="/event/fall-mixer/">Events</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <h1>Sampler: a page with planted defects</h1>
+    <p class="quiet">Updated October 1</p>
+
+    <!-- D09: heading jumps from h1 to h4. -->
+    <h4>The garden in October</h4>
+    <!-- D02: image with no alt attribute at all. -->
+    <img src="../assets/images/garden.svg" width="300" height="200">
+
+    <!-- D08: a paragraph set in capitals. -->
+    <p class="shout">Volunteers are welcome every Saturday morning, rain or shine,
+      and tools are provided by the institute.</p>
+
+    <!-- D07: links in body text that differ from it by color alone. -->
+    <p class="prose">Read the <a href="/publication/soil-carbon/">soil study</a>
+      that started the garden, or come to the <a href="/event/fall-mixer/">fall mixer</a>
+      and see it for yourself.</p>
+
+    <!-- H01: alt text is present, so every tool passes it, but it repeats the
+         visible headline and says nothing about the picture. Only a person
+         reading it finds this. -->
+    <div class="card">
+      <h2>Students harvest the first squash</h2>
+      <img src="../assets/images/garden.svg" width="300" height="200" alt="Students harvest the first squash">
+    </div>
+
+    <!-- D03: a linked image whose alt is empty, so the link has no name. -->
+    <a href="/news/campus-garden/"><img src="../assets/images/garden.svg" width="150" height="100" alt=""></a>
+
+    <!-- H02: three "Read more" links to three different places. Each has a
+         name, so name checks pass; out of context the names are useless. -->
+    <ul>
+      <li>Soil carbon study. <a href="/publication/soil-carbon/">Read more</a></li>
+      <li>River flow study. <a href="/publication/river-flow/">Read more</a></li>
+      <li>Garden story. <a href="/news/campus-garden/">Read more</a></li>
+    </ul>
+
+    <!-- D13: an empty heading. -->
+    <h2></h2>
+
+    <!-- D10: an iframe with no title. -->
+    <iframe src="../assets/embed.html" width="400" height="120"></iframe>
+
+    <!-- D14: aria-label on a plain div, where ARIA prohibits naming. -->
+    <div aria-label="Newsletter">
+      <!-- D05: a text field with no label; the placeholder is not a label. -->
+      <input type="email" placeholder="Email address">
+      <!-- K01: a "button" made from a div. It responds to a click, but it is
+           not focusable and ignores Enter and Space. A keyboard user cannot
+           subscribe. -->
+      <div class="fake-button" onclick="this.textContent = 'Subscribed'">Subscribe</div>
+    </div>
+
+    <!-- D11: aria-hidden hides this from screen readers, but the link inside
+         is still in the Tab order: focus lands on something that is not there. -->
+    <div aria-hidden="true">
+      <a href="/news/campus-garden/">Hidden promo link</a>
+    </div>
+
+    <!-- D15: two 16 x 16 px link targets touching each other. WCAG 2.5.8 asks
+         for 24 x 24 px, or enough space around a smaller target; these have
+         neither. -->
+    <div class="pager">
+      <a href="/sampler/broken.html"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M13 8H5M8 4L4 8l4 4" stroke="#1b4f8a" stroke-width="2" fill="none"/></svg><span class="visually-hidden">Previous page</span></a>
+      <a href="/sampler/fixed.html"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M3 8h8M8 4l4 4-4 4" stroke="#1b4f8a" stroke-width="2" fill="none"/></svg><span class="visually-hidden">Next page</span></a>
+    </div>
+  </main>
+</body>
+</html>

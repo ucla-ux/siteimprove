@@ -1,0 +1,6 @@
+Alfa 80/89 rule(s) · level aa · 1 page(s) · desktop 1440x900
+
+file:///…/labs/fixtures/site/sampler/fixed.html
+  no failures
+
+0 failure(s) across 1 page(s), 0 needing a human decision.

@@ -1,0 +1,178 @@
+sia-r1    WCAG 2.4.2 Page Titled [A]; technique G88; technique H25
+          https://alfa.siteimprove.com/rules/sia-r1
+sia-r2    WCAG 1.1.1 Non-text Content [A]; technique G94; technique G95
+          https://alfa.siteimprove.com/rules/sia-r2
+sia-r4    WCAG 3.1.1 Language of Page [A]; technique H57
+          https://alfa.siteimprove.com/rules/sia-r4
+sia-r5    WCAG 3.1.1 Language of Page [A]; technique H57
+          https://alfa.siteimprove.com/rules/sia-r5
+sia-r7    WCAG 3.1.2 Language of Parts [AA]; technique H58
+          https://alfa.siteimprove.com/rules/sia-r7
+sia-r8    WCAG 4.1.2 Name, Role, Value [A]
+          https://alfa.siteimprove.com/rules/sia-r8
+sia-r9    WCAG 2.2.1 Timing Adjustable [A]; WCAG 2.2.4 Interruptions [AAA]; WCAG 3.2.5 Change on Request [AAA]; technique G110; technique H76
+          https://alfa.siteimprove.com/rules/sia-r9
+sia-r10   WCAG 1.3.5 Identify Input Purpose [AA]
+          https://alfa.siteimprove.com/rules/sia-r10
+sia-r11   WCAG 2.4.4 Link Purpose (In Context) [A]; WCAG 2.4.9 Link Purpose (Link Only) [AAA]; WCAG 4.1.2 Name, Role, Value [A]; technique G91
+          https://alfa.siteimprove.com/rules/sia-r11
+sia-r12   WCAG 4.1.2 Name, Role, Value [A]
+          https://alfa.siteimprove.com/rules/sia-r12
+sia-r13   WCAG 4.1.2 Name, Role, Value [A]
+          https://alfa.siteimprove.com/rules/sia-r13
+sia-r14   WCAG 2.5.3 Label in Name [A]; technique G208
+          https://alfa.siteimprove.com/rules/sia-r14
+sia-r15   WCAG 4.1.2 Name, Role, Value [A]
+          https://alfa.siteimprove.com/rules/sia-r15
+sia-r16   WCAG 1.3.1 Info and Relationships [A]; WCAG 4.1.2 Name, Role, Value [A]; technique ARIA5
+          https://alfa.siteimprove.com/rules/sia-r16
+sia-r17   WCAG 4.1.2 Name, Role, Value [A]
+          https://alfa.siteimprove.com/rules/sia-r17
+sia-r18   ARIA state_property_processing; technique ARIA5
+          https://alfa.siteimprove.com/rules/sia-r18
+sia-r19   ARIA propcharacteristic_value
+          https://alfa.siteimprove.com/rules/sia-r19
+sia-r20   ARIA state_prop_def
+          https://alfa.siteimprove.com/rules/sia-r20
+sia-r21   best practice all-roles-valid
+          https://alfa.siteimprove.com/rules/sia-r21
+sia-r22   technique G87; technique G93; technique H95
+          https://alfa.siteimprove.com/rules/sia-r22
+sia-r23   best practice
+          https://alfa.siteimprove.com/rules/sia-r23
+sia-r24   WCAG 1.2.8 Media Alternative (Prerecorded) [AAA]; technique G69
+          https://alfa.siteimprove.com/rules/sia-r24
+sia-r25   technique G8; technique G78; technique G173
+          https://alfa.siteimprove.com/rules/sia-r25
+sia-r26   best practice
+          https://alfa.siteimprove.com/rules/sia-r26
+sia-r27   WCAG 1.2.2 Captions (Prerecorded) [A]; technique G87; technique G93; technique H95
+          https://alfa.siteimprove.com/rules/sia-r27
+sia-r28   WCAG 1.1.1 Non-text Content [A]; WCAG 4.1.2 Name, Role, Value [A]; technique G94; technique G95
+          https://alfa.siteimprove.com/rules/sia-r28
+sia-r29   best practice
+          https://alfa.siteimprove.com/rules/sia-r29
+sia-r30   WCAG 1.2.1 Audio-only and Video-only (Prerecorded) [A]; technique G158
+          https://alfa.siteimprove.com/rules/sia-r30
+sia-r31   best practice
+          https://alfa.siteimprove.com/rules/sia-r31
+sia-r32   technique G166
+          https://alfa.siteimprove.com/rules/sia-r32
+sia-r33   technique G159
+          https://alfa.siteimprove.com/rules/sia-r33
+sia-r35   WCAG 1.2.1 Audio-only and Video-only (Prerecorded) [A]; technique G159; technique G166
+          https://alfa.siteimprove.com/rules/sia-r35
+sia-r37   WCAG 1.2.5 Audio Description (Prerecorded) [AA]; technique G8; technique G78; technique G173
+          https://alfa.siteimprove.com/rules/sia-r37
+sia-r38   WCAG 1.2.3 Audio Description or Media Alternative (Prerecorded) [A]; WCAG 1.2.5 Audio Description (Prerecorded) [AA]; WCAG 1.2.8 Media Alternative (Prerecorded) [AAA]; technique G8; technique G69; technique G78; technique G173
+          https://alfa.siteimprove.com/rules/sia-r38
+sia-r39   WCAG 1.1.1 Non-text Content [A]; technique G94; technique G95
+          https://alfa.siteimprove.com/rules/sia-r39
+sia-r40   ARIA region; ARIA aria_lh_region
+          https://alfa.siteimprove.com/rules/sia-r40
+sia-r41   WCAG 2.4.9 Link Purpose (Link Only) [AAA]
+          https://alfa.siteimprove.com/rules/sia-r41
+sia-r42   WCAG 1.3.1 Info and Relationships [A]
+          https://alfa.siteimprove.com/rules/sia-r42
+sia-r43   WCAG 1.1.1 Non-text Content [A]
+          https://alfa.siteimprove.com/rules/sia-r43
+sia-r44   WCAG 1.3.4 Orientation [AA]
+          https://alfa.siteimprove.com/rules/sia-r44
+sia-r45   WCAG 1.3.1 Info and Relationships [A]; technique H43
+          https://alfa.siteimprove.com/rules/sia-r45
+sia-r46   WCAG 1.3.1 Info and Relationships [A]; technique H43
+          https://alfa.siteimprove.com/rules/sia-r46
+sia-r47   WCAG 1.4.4 Resize Text [AA]
+          https://alfa.siteimprove.com/rules/sia-r47
+sia-r48   technique G60
+          https://alfa.siteimprove.com/rules/sia-r48
+sia-r49   technique G170
+          https://alfa.siteimprove.com/rules/sia-r49
+sia-r50   WCAG 1.4.2 Audio Control [A]; technique G60; technique G170; technique G171
+          https://alfa.siteimprove.com/rules/sia-r50
+sia-r53   best practice headings-structured
+          https://alfa.siteimprove.com/rules/sia-r53
+sia-r54   best practice
+          https://alfa.siteimprove.com/rules/sia-r54
+sia-r55   ARIA aria_lh_step3
+          https://alfa.siteimprove.com/rules/sia-r55
+sia-r56   ARIA aria_lh_step3
+          https://alfa.siteimprove.com/rules/sia-r56
+sia-r57   ARIA generalprinciplesoflandmarkdesign
+          https://alfa.siteimprove.com/rules/sia-r57
+sia-r59   best practice document-has-headings
+          https://alfa.siteimprove.com/rules/sia-r59
+sia-r60   best practice group-has-name
+          https://alfa.siteimprove.com/rules/sia-r60
+sia-r61   best practice document-start-with-level-1-heading
+          https://alfa.siteimprove.com/rules/sia-r61
+sia-r62   WCAG 1.4.1 Use of Color [A]
+          https://alfa.siteimprove.com/rules/sia-r62
+sia-r63   WCAG 1.1.1 Non-text Content [A]
+          https://alfa.siteimprove.com/rules/sia-r63
+sia-r64   WCAG 1.3.1 Info and Relationships [A]; technique H42
+          https://alfa.siteimprove.com/rules/sia-r64
+sia-r65   WCAG 2.4.7 Focus Visible [AA]
+          https://alfa.siteimprove.com/rules/sia-r65
+sia-r66   WCAG 1.4.6 Contrast (Enhanced) [AAA]
+          https://alfa.siteimprove.com/rules/sia-r66
+sia-r67   WCAG 1.1.1 Non-text Content [A]
+          https://alfa.siteimprove.com/rules/sia-r67
+sia-r68   WCAG 1.3.1 Info and Relationships [A]
+          https://alfa.siteimprove.com/rules/sia-r68
+sia-r69   WCAG 1.4.3 Contrast (Minimum) [AA]; WCAG 1.4.6 Contrast (Enhanced) [AAA]
+          https://alfa.siteimprove.com/rules/sia-r69
+sia-r70   best practice no-deprecated-elements
+          https://alfa.siteimprove.com/rules/sia-r70
+sia-r71   WCAG 1.4.8 Visual Presentation [AAA]
+          https://alfa.siteimprove.com/rules/sia-r71
+sia-r72   best practice paragraph-not-uppercase
+          https://alfa.siteimprove.com/rules/sia-r72
+sia-r73   WCAG 1.4.8 Visual Presentation [AAA]
+          https://alfa.siteimprove.com/rules/sia-r73
+sia-r74   WCAG 1.4.8 Visual Presentation [AAA]
+          https://alfa.siteimprove.com/rules/sia-r74
+sia-r75   best practice font-size-above-minimum
+          https://alfa.siteimprove.com/rules/sia-r75
+sia-r76   WCAG 1.3.1 Info and Relationships [A]
+          https://alfa.siteimprove.com/rules/sia-r76
+sia-r77   WCAG 1.3.1 Info and Relationships [A]
+          https://alfa.siteimprove.com/rules/sia-r77
+sia-r78   best practice heading-has-content
+          https://alfa.siteimprove.com/rules/sia-r78
+sia-r79   best practice preformated-text-is-code-or-figure
+          https://alfa.siteimprove.com/rules/sia-r79
+sia-r80   WCAG 1.4.8 Visual Presentation [AAA]
+          https://alfa.siteimprove.com/rules/sia-r80
+sia-r81   WCAG 2.4.4 Link Purpose (In Context) [A]; WCAG 2.4.9 Link Purpose (Link Only) [AAA]
+          https://alfa.siteimprove.com/rules/sia-r81
+sia-r84   WCAG 2.1.1 Keyboard [A]; WCAG 2.1.3 Keyboard (No Exception) [AAA]; technique G202
+          https://alfa.siteimprove.com/rules/sia-r84
+sia-r85   best practice paragraph-not-italics
+          https://alfa.siteimprove.com/rules/sia-r85
+sia-r86   best practice element-marked-as-decorative-is-not-exposed
+          https://alfa.siteimprove.com/rules/sia-r86
+sia-r87   technique G1; best practice first-focusable-is-skip-link
+          https://alfa.siteimprove.com/rules/sia-r87
+sia-r90   WCAG 4.1.2 Name, Role, Value [A]
+          https://alfa.siteimprove.com/rules/sia-r90
+sia-r91   WCAG 1.4.12 Text Spacing [AA]
+          https://alfa.siteimprove.com/rules/sia-r91
+sia-r92   WCAG 1.4.12 Text Spacing [AA]
+          https://alfa.siteimprove.com/rules/sia-r92
+sia-r93   WCAG 1.4.12 Text Spacing [AA]
+          https://alfa.siteimprove.com/rules/sia-r93
+sia-r94   WCAG 4.1.2 Name, Role, Value [A]
+          https://alfa.siteimprove.com/rules/sia-r94
+sia-r95   WCAG 2.1.1 Keyboard [A]
+          https://alfa.siteimprove.com/rules/sia-r95
+sia-r96   WCAG 2.2.4 Interruptions [AAA]; WCAG 3.2.5 Change on Request [AAA]; technique G110; technique H76
+          https://alfa.siteimprove.com/rules/sia-r96
+sia-r110  WCAG 1.3.1 Info and Relationships [A]; technique ARIA4; technique G108
+          https://alfa.siteimprove.com/rules/sia-r110
+sia-r111  WCAG 2.5.5 Target Size (Enhanced) [AAA]
+          https://alfa.siteimprove.com/rules/sia-r111
+sia-r113  WCAG 2.5.8 Target Size (Minimum) [AA]
+          https://alfa.siteimprove.com/rules/sia-r113
+sia-r116  WCAG 4.1.2 Name, Role, Value [A]
+          https://alfa.siteimprove.com/rules/sia-r116

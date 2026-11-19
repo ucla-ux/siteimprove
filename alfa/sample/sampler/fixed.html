@@ -1,0 +1,113 @@
+<!doctype html>
+<!-- SAMPLER, FIXED. Same content as broken.html with every numbered defect
+     repaired; the comments say how. Every tool in the labs should report no
+     failures here. If one does, that is worth a look: either the fix is
+     incomplete or the tool is wrong, and both are worth knowing. -->
+<!-- D01: lang set. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sampler (fixed) — Example Institute</title>
+  <link rel="stylesheet" href="../assets/site.css">
+  <style>
+    .quiet { color: #595959; }                           /* D06: 7:1 */
+    .prose a { color: #1b4f8a; text-decoration: underline; } /* D07 */
+    .menu-toggle { all: unset; cursor: pointer; padding: 0.5rem; }
+    .menu-toggle:focus-visible { outline: 3px solid #f2b705; }
+    .button { display: inline-block; padding: 0.5rem 1rem; background: #1b4f8a;
+              color: #fff; border: 0; font: inherit; cursor: pointer; }
+    .pager { display: flex; gap: 8px; }
+    .pager a { display: grid; place-items: center; width: 44px; height: 44px; }  /* D15 */
+    .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden;
+                       clip: rect(0 0 0 0); white-space: nowrap; }
+    .link-list a { display: inline-block; padding-block: 0.375rem; }      /* H02 targets */
+    .skip-link { position: absolute; left: -999px; }
+    .skip-link:focus { left: 1rem; top: 1rem; background: #fff; padding: 0.5rem; }
+  </style>
+</head>
+<body>
+  <!-- Not a numbered defect: Alfa's best-practice rule sia-r87 asks that the
+       first thing Tab reaches be a link to the main content. -->
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <!-- D16: everything sits in a landmark. -->
+  <header class="site-header">
+    <p>Example Institute · Workshop sampler</p>
+    <!-- D04: the icon button has a name. -->
+    <button class="menu-toggle" aria-label="Open menu"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="#1d2433" stroke-width="2"/></svg></button>
+
+    <!-- D12: a plain list of links inside a nav. -->
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/person/ada-lovelace/">People</a></li>
+        <li><a href="/event/fall-mixer/">Events</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <h1>Sampler: a page with planted defects</h1>
+    <p class="quiet">Updated October 1</p>
+
+    <!-- D09: h2 follows h1. -->
+    <h2>The garden in October</h2>
+    <!-- D02: alt describes the picture. -->
+    <img src="../assets/images/garden.svg" width="300" height="200"
+         alt="Three raised beds of green plants on brown soil under a clear sky">
+
+    <!-- D08: sentence case in the source and on screen. -->
+    <p>Volunteers are welcome every Saturday morning, rain or shine, and tools
+      are provided by the institute.</p>
+
+    <!-- D07: links are underlined. -->
+    <p class="prose">Read the <a href="/publication/soil-carbon/">soil study</a>
+      that started the garden, or come to the <a href="/event/fall-mixer/">fall mixer</a>
+      and see it for yourself.</p>
+
+    <!-- H01: alt says what the picture shows; the headline is already visible. -->
+    <div class="card">
+      <h2>Students harvest the first squash</h2>
+      <img src="../assets/images/garden.svg" width="300" height="200"
+           alt="Raised beds with leafy plants, ready for harvest">
+    </div>
+
+    <!-- D03: the linked image's alt names the destination. -->
+    <a href="/news/campus-garden/"><img src="../assets/images/garden.svg" width="150" height="100"
+       alt="Campus garden story"></a>
+
+    <!-- H02: each link says where it goes. -->
+    <ul class="link-list">
+      <li><a href="/publication/soil-carbon/">Soil carbon study</a></li>
+      <li><a href="/publication/river-flow/">River flow study</a></li>
+      <li><a href="/news/campus-garden/">Campus garden story</a></li>
+    </ul>
+
+    <!-- D13: the empty heading is gone. -->
+
+    <!-- D10: the iframe has a title. -->
+    <iframe src="../assets/embed.html" width="400" height="120" title="Video summary of the garden project"></iframe>
+
+    <!-- D14: a form landmark with a visible heading instead of aria-label on a div. -->
+    <form aria-labelledby="newsletter-heading" onsubmit="event.preventDefault(); this.querySelector('button').textContent = 'Subscribed'">
+      <h2 id="newsletter-heading">Newsletter</h2>
+      <!-- D05: a real label. -->
+      <label for="newsletter-email">Email address</label>
+      <input id="newsletter-email" type="email" autocomplete="email">
+      <!-- K01: a real button: focusable, and Enter and Space work for free. -->
+      <button class="button" type="submit">Subscribe</button>
+    </form>
+
+    <!-- D11: the hidden promo is removed rather than hidden. -->
+
+    <!-- D15: 44 x 44 px targets with space between them. -->
+    <nav class="pager" aria-label="Sampler pages">
+      <a href="/sampler/broken.html"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M13 8H5M8 4L4 8l4 4" stroke="#1b4f8a" stroke-width="2" fill="none"/></svg><span class="visually-hidden">Previous page</span></a>
+      <a href="/sampler/fixed.html"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M3 8h8M8 4l4 4-4 4" stroke="#1b4f8a" stroke-width="2" fill="none"/></svg><span class="visually-hidden">Next page</span></a>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <p>Example Institute is a fictional organization. This page is a workshop fixture.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,46 @@
+/* Example Institute — fixture site. Plain on purpose: every defect in these
+   pages is planted and listed in labs/fixtures/README.md. */
+
+:root {
+  --ink: #1d2433;
+  --muted: #4a5568;
+  --brand: #1b4f8a;
+  --paper: #ffffff;
+  --rule: #d9dee7;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font: 1rem/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+a { color: var(--brand); }
+a:focus-visible, button:focus-visible, input:focus-visible {
+  outline: 3px solid #f2b705;
+  outline-offset: 2px;
+}
+
+.site-header, .site-footer {
+  padding: 1rem 1.5rem;
+  background: #f4f6fa;
+  border-bottom: 1px solid var(--rule);
+}
+.site-footer { border-top: 1px solid var(--rule); border-bottom: 0; margin-top: 3rem; }
+.site-header .logo { font-weight: 700; text-decoration: none; color: var(--ink); }
+.site-nav ul { display: flex; gap: 1.25rem; list-style: none; margin: 0.5rem 0 0; padding: 0; }
+/* Links that fill a list item get no inline-text exemption from WCAG 2.5.8,
+   so they need a 24 px target of their own. */
+.site-nav a { display: inline-block; padding-block: 0.375rem; }
+
+main { max-width: 46rem; margin: 0 auto; padding: 1.5rem; }
+
+.card { border: 1px solid var(--rule); padding: 1rem; margin: 1rem 0; }
+.meta { color: var(--muted); font-size: 0.9rem; }
+.social { display: flex; gap: 0.75rem; list-style: none; padding: 0; }
+.social svg { width: 24px; height: 24px; fill: var(--brand); }
+
+img { max-width: 100%; height: auto; }

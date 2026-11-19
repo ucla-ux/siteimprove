@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+node_modules/
+
+# Real exports contain Siteimprove links with access tokens. Never commit them.
+exports/
+
+# Local scratch space for real exports used in demos. Never commit.
+tmp/

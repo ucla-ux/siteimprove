@@ -1,0 +1,21 @@
+{
+  "name": "alfa-scan-lab",
+  "private": true,
+  "description": "Standalone Siteimprove Alfa scan over Playwright-rendered pages, for the accessibility tools labs",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "scan": "node alfa-scan.mjs",
+    "sampler": "node alfa-scan.mjs sample/sampler/broken.html --no-fail",
+    "sampler:fixed": "node alfa-scan.mjs sample/sampler/fixed.html"
+  },
+  "dependencies": {
+    "@siteimprove/alfa-act": "0.119.0",
+    "@siteimprove/alfa-playwright": "0.84.2",
+    "@siteimprove/alfa-rules": "0.119.0",
+    "@siteimprove/alfa-wcag": "0.119.0",
+    "playwright": "1.62.1"
+  }
+}
